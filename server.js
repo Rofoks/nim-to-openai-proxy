@@ -71,6 +71,7 @@ const MODEL_MAPPING = {
   'nemotron-ultra': 'nvidia/nemotron-3-ultra-550b-a55b',
   'nemotron-lightning': 'nvidia/nemotron-3.5-lightning-30b-a3b',
   'nemotron-nano-omni': 'nvidia/nemotron-3-nano-omni-30b-a3b-reasoning',
+  'nemotron-bolt': 'nvidia/nemotron-3.5-bolt-e4b',
   'gpt-oss': 'openai/gpt-oss-20b',
   'google-gemma': 'google/gemma-4-31b-it',
   'google-diffusion-gemma': 'google/diffusiongemma-26b-a4b-it', 
