@@ -70,11 +70,15 @@ const MODEL_MAPPING = {
   'nemotron-super': 'nvidia/nemotron-3-super-120b-a12b',
   'nemotron-ultra': 'nvidia/nemotron-3-ultra-550b-a55b',
   'nemotron-lightning': 'nvidia/nemotron-3.5-lightning-30b-a3b',
-  'google-diffusiongemma': 'google/diffusiongemma-26b-a4b-it',
-  'mistral': 'mistralai/mistral-large-4-1t-a52b', 
+  'nemotron-nano-omni': 'nvidia/nemotron-3-nano-omni-30b-a3b-reasoning',
+  'gpt-oss': 'openai/gpt-oss-20b',
   'google-gemma': 'google/gemma-4-31b-it',
+  'google-diffusion-gemma': 'google/diffusiongemma-26b-a4b-it', 
   'glm-5.3-flash': 'z-ai/glm-5.3-flash',
-  'm3.1': 'minimaxai/minimax-m3.1-flash'
+  'm3.1-flash': 'minimaxai/minimax-m3.1-flash',
+  'muse': 'meta/muse-glimmer-30b',
+  'laguna': 'poolside/laguna-xs-2.1',
+  'step-5': 'stepfun-ai/step-5-preview'
 };
 
 // Used when an unrecognized alias is requested. Must point at a live model.
