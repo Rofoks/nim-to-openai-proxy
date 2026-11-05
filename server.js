@@ -79,7 +79,8 @@ const MODEL_MAPPING = {
   'm3.1-flash': 'minimaxai/minimax-m3.1-flash',
   'muse': 'meta/muse-glimmer-30b',
   'laguna': 'poolside/laguna-xs-2.1',
-  'step-5': 'stepfun-ai/step-5-preview'
+  'step-5': 'stepfun-ai/step-5-preview',
+  'kimi-k3.1-pro': 'moonshotai/kimi-k3.1-pro'
 };
 
 // Used when an unrecognized alias is requested. Must point at a live model.
