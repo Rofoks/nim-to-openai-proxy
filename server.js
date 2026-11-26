@@ -82,7 +82,7 @@ const MODEL_MAPPING = {
   'laguna': 'poolside/laguna-xs-2.1',
   'step-5': 'stepfun-ai/step-5-preview',
   'mistral-large-4': 'mistralai/mistral-large-4-1t-a52b',
-  'kimi-k3.1': 'moonshotai/kimi-k3.1-pro'
+  'kimi-k3.1': 'moonshotai/kimi-k3.1-pro',
 };
 
 // Used when an unrecognized alias is requested. Must point at a live model.
