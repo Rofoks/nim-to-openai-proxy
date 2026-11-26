@@ -76,12 +76,13 @@ const MODEL_MAPPING = {
   'google-gemma': 'google/gemma-4-31b-it',
   'google-diffusion-gemma': 'google/diffusiongemma-26b-a4b-it',
   'deepseek-4.1-flash': 'deepseek-ai/deepseek-v4.1-flash',
-  'glm-5.3-flash': 'z-ai/glm-5.3-flash',
-  'm3.1-flash': 'minimaxai/minimax-m3.1-flash',
+  'glm-5.3': 'z-ai/glm-5.3-flash',
+  'minimax-3.1-flash': 'minimaxai/minimax-m3.1-flash',
   'muse': 'meta/muse-glimmer-30b',
   'laguna': 'poolside/laguna-xs-2.1',
   'step-5': 'stepfun-ai/step-5-preview',
-  'kimi-k3.1-pro': 'moonshotai/kimi-k3.1-pro'
+  'mistral-large-4': 'mistralai/mistral-large-4-1t-a52b',
+  'kimi-k3.1': 'moonshotai/kimi-k3.1-pro'
 };
 
 // Used when an unrecognized alias is requested. Must point at a live model.
@@ -90,7 +91,7 @@ const DEFAULT_MODEL = 'google/diffusiongemma-26b-a4b-it';
 // Ordered by observed reliability/speed — an early failing model delays every fallback behind it.
 const FALLBACK_MODELS = [
   'minimaxai/minimax-m3.1-flash',
-  'google/diffusiongemma-26b-a4b-it'
+  'nvidia/nemotron-3-ultra-550b-a55b'
 ];
 
 // ─── Middleware ─────────────────────────────────────────────────────────
